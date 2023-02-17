@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c3a7dc854c49a438ab9f35f941ddbb, type: 3}
+  m_Name: Romance
+  m_EditorClassIdentifier: 
+  songEntries:
+  - songTitle: I love You Baby
+    songArtist: Frank Sinatra
+    songImage: {fileID: 21300000, guid: ba1e474ebdebeea48aa2321f6e81a3cc, type: 3}
+    songAudioclip: {fileID: 8300000, guid: e6793a5c78231834a90fc4699090d60a, type: 3}
+  - songTitle: Careless Whisper
+    songArtist: George Michael
+    songImage: {fileID: 21300000, guid: 1713afbe572f6234a8015df0048d23fe, type: 3}
+    songAudioclip: {fileID: 8300000, guid: 0fdb6daf96bf9264ebc8bf2d8ff2703b, type: 3}
+  - songTitle: Lucky
+    songArtist: Jason Mraz
+    songImage: {fileID: 21300000, guid: f984405364d6fed48a2224a2d0f96d32, type: 3}
+    songAudioclip: {fileID: 8300000, guid: d0a193d1e1d70f24cb11fc0020f5e372, type: 3}
+  - songTitle: Gelora Cintaku
+    songArtist: Trio Lestari
+    songImage: {fileID: 21300000, guid: 17b7993714f977447afe538b038443b9, type: 3}
+    songAudioclip: {fileID: 8300000, guid: 8f95a84de72e3ea48bbab3c972602370, type: 3}
+  - songTitle: A Thousand Years
+    songArtist: Christina Perri
+    songImage: {fileID: 21300000, guid: 0dcff39d2f069884180790273f036eb2, type: 3}
+    songAudioclip: {fileID: 8300000, guid: 826f5f09192177c42824025712ec0b74, type: 3}
+  - songTitle: Nothing's Going to Change My Love For You
+    songArtist: Westlife
+    songImage: {fileID: 21300000, guid: 2b9ca8751d0ee074b8866135d2e72d49, type: 3}
+    songAudioclip: {fileID: 8300000, guid: e3ea23c843d08a04d85dabdf6c950d32, type: 3}
+  - songTitle: Marry You
+    songArtist: Bruno Mars
+    songImage: {fileID: 21300000, guid: d01638b311c879243af407a5b9275643, type: 3}
+    songAudioclip: {fileID: 8300000, guid: b11d1f1638d2bd64da69187471a6c26c, type: 3}
+  - songTitle: Never Gonna Give You Up
+    songArtist: Rick Astley
+    songImage: {fileID: 21300000, guid: b487ebc715353864abbc92e86ce29258, type: 3}
+    songAudioclip: {fileID: 8300000, guid: a30561cdbfebec24bb34aba4c931c70e, type: 3}
