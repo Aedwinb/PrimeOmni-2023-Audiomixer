@@ -8,11 +8,11 @@ public class AudioVinylHandler : MonoBehaviour
     [SerializeField]private AudioVinyl _audioVinyl;
     private void OnEnable()
     {
-        _audioVinyl.OnPitchEvent += _audioPlayer.SetPitch;
+        _audioVinyl.onPitchEvent += _audioPlayer.SetPitch;
     }
     private void OnDisable()
     {
-        _audioVinyl.OnPitchEvent -= _audioPlayer.SetPitch;
+        _audioVinyl.onPitchEvent -= _audioPlayer.SetPitch;
     }
     private void Update()
     {

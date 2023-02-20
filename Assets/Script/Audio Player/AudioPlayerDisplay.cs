@@ -25,7 +25,7 @@ public class AudioPlayerDisplay : MonoBehaviour
         _audioPlayer.onAudioChange -= SetDisplay;
     }
 
-    public void SetDisplay(AudioPlayer player)
+    private void SetDisplay(AudioPlayer player)
     {
         ResetValues();
         SongEntry entryCache = player.GetSongEntry();

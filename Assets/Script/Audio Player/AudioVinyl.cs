@@ -5,15 +5,14 @@ using System;
 [System.Serializable]
 public class AudioVinyl
 {
-    public Action<float> OnPitchEvent;
-    [SerializeField][Range(0,10)]private float maxPitch;
-    [SerializeField]private float defaultPitch;
-    [SerializeField][Range(0.01f,1)]private float pitchChangeSpeed;
+    public Action<float> onPitchEvent;
+    [SerializeField]private float _defaultPitch;
+    [SerializeField][Range(0.01f,1)]private float _pitchChangeSpeed;
     private float _targetPitch;
     private float _currentPitch;
     public AudioVinyl()
     {
-        _currentPitch = defaultPitch;
+        _currentPitch = _defaultPitch;
     }
     public void SetTargetPitch(float newValue)
     {
@@ -23,8 +22,8 @@ public class AudioVinyl
     {
         if (_currentPitch != _targetPitch)
         {
-            _currentPitch = Mathf.Lerp(_currentPitch, _targetPitch, pitchChangeSpeed);
-            if(OnPitchEvent!=null)OnPitchEvent(_currentPitch);
+            _currentPitch = Mathf.Lerp(_currentPitch, _targetPitch, _pitchChangeSpeed);
+            if(onPitchEvent!=null)onPitchEvent(_currentPitch);
         }
     }
 }

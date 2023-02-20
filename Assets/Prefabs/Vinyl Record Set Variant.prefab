@@ -4514,9 +4514,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioPlayer: {fileID: 5430860729207600672}
   _audioVinyl:
-    maxPitch: 3
-    defaultPitch: 1
-    pitchChangeSpeed: 0.3
+    _defaultPitch: 1
+    _pitchChangeSpeed: 0.3
 --- !u!114 &4880259510517329977
 MonoBehaviour:
   m_ObjectHideFlags: 0
