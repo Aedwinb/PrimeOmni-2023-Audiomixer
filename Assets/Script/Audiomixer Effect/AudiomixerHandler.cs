@@ -15,7 +15,7 @@ public class AudiomixerHandler : MonoBehaviour
     {
         _triggerButton.onClick.RemoveListener(ApplySnapshot);
     }
-    public void ApplySnapshot()
+    private void ApplySnapshot()
     {
         Debug.Log("Applying snapshot: "+_targetSnapshot.name);
         _targetSnapshot.TransitionTo(0.5f);
